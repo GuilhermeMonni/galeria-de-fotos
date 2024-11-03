@@ -56,7 +56,7 @@ header{
 }
 
 main{
-  background-image: url(/images/fundo-peixes.jpg);
+  background-image: url("../images/fundo-peixes.jpg");
   background-position: center;
   background-size: cover;
   display: flex;

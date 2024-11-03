@@ -69,7 +69,7 @@ main{
   border-radius: 5px;
 }
 .container{
-  background-image: url("/images/fundo-peixes.jpg");
+  background-image: url("../images/fundo-peixes.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
