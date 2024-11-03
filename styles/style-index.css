@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  background-color: black;
+  margin: 0 auto;
+  padding: 10px;
+  height: 8vh;
+  width:100%;
+  text-align: center;
+}
+
+.nav{
+  background-color: transparent;
+  position: absolute;
+  left: 2px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 5%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.nav h1{
+  color: #FFFF;
+  font-size: 1.5em;
+  margin: 10px auto 70px;
+  padding: 10px;
+  box-shadow: 5px 5px #008080;
+}
+.nav img{
+  width: 20px;
+}
+.nav a{
+  margin: 10px auto;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: rgb(3, 176, 176);
+  font-weight: 300;
+}
+.nav a:hover{
+  scale: 1.01;
+  cursor: pointer;
+  color: #FFFF;
+}
+.nav p{
+  transition-duration: 0.2;
+  font-size: 0.9em;
+}
+
+main{
+  background-color: rgba(0, 0, 0, 0.778);
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 5px;
+}
+.container{
+  background-image: url("/images/fundo-peixes.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -25px auto 0 170px;
+  width: 80%;
+  height: 90vh;
+  border-radius: 20px;
+}
+.cont-inicio{
+  background-color: rgba(0, 0, 0, 0.821);
+  position: absolute;
+  width: 50%;
+  height: 45vh;
+  top: 20%;
+  left: 30%;
+  border-radius: 10px;
+  scale: 0;
+}
+.cont-inicio h3{
+  color: #FFFF;
+  margin: 30px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+}
+.cont-inicio input{
+  background-color: #009797;
+  color: black;
+  margin: 30px auto;
+  width: 20%;
+  height: 5vh;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.cont-inicio input:hover{
+  scale: 1.01;
+  color: #FFFF;
+  border: 1px solid #CCCC;
+}
+.cont-inicio img{
+  margin: 0 5px;
+  width:20%;
+  border-radius: 30%;
+}
+.cont-inicio img:hover{
+  scale: 1.01;
+}
+
+footer{
+  background-color: transparent;
+  position: absolute;
+  bottom: 1px;
+  left: 3px;
+  width: 20%;
+  text-align: left;
+}
+footer img{
+  width: 5%;
+  margin: 0 2px 0 3px;
+  transition-duration: 1s;
+}
+footer img:hover{
+  cursor: pointer;
+  scale: 1.1;
+}

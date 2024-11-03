@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  background-color: transparent;
+  margin: 20px auto;
+  padding: 10px;
+  height: 10vh;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.nav-fotos{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 26%;
+  height: 40px;
+  padding: 0;
+}
+.nav-fotos a{
+  width: 100%;
+  margin: 10px 15px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.nav-fotos p{
+  margin: 8px auto;
+  color: teal;
+  transition-duration: 0.4s;
+}
+.nav-fotos img{
+  width: 20px;
+}
+.nav-fotos a:hover{
+  cursor: pointer;
+}
+
+main{
+  background-image: url(/images/fundo-peixes.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  margin: 30px auto 50px;
+  width: 60%;
+  height: 70vh;
+  border-radius: 20px;
+}
+.container{
+  background-color: black;
+  opacity: 0.8;
+  margin: 100px auto;
+  padding: 20px;
+  width: 80%;
+  height: 40vh;
+  border-radius: 20px;
+}
+.container p{
+  color: #ffff;
+  margin: 20px auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.04em;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 28px;
+}
+.container input{
+  background-color: #009797;
+  color: black;
+  margin: 30px auto;
+  width: 17%;
+  height: 5vh;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container input:hover{
+  scale: 1.01;
+  color: #FFFF;
+  border: 1px solid #CCCC;
+}
+
+footer{
+  color: #ffff;
+  position: absolute;
+  bottom: 3px;
+  left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6em;
+  font-weight: 500;
+  font-style: normal;
+}
