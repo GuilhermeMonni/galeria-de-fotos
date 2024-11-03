@@ -22,4 +22,4 @@ Este mini projeto consiste em criar uma galeria de fotos utilizando apenas HTML,
 
 ## 🔨 Em breve
 - Reponsividade
-- Funcão do usuário adicionar fotos
+- Função do usuário adicionar fotos
