@@ -1,3 +1,4 @@
+## Galeria de imagens 👽
 Este mini projeto consiste em criar uma galeria de fotos utilizando apenas HTML, CSS e JavaScript, baseado no layout da página apresentada: https://codante.io/mini-projetos/galeria-de-imagens. A galeria terá uma barra de navegação e um botão para carregar mais imagens. O objetivo é criar uma interface limpa e funcional, com foco na exibição das fotos.
 
 ### Para todas as páginas
