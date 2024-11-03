@@ -1,0 +1,22 @@
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 3px; 
+  height: 10px; 
+}
+
+/* Estilo do fundo */
+::-webkit-scrollbar-track {
+  background: black; 
+  border-radius: 2px; 
+}
+
+/* Estilo do thumb */
+::-webkit-scrollbar-thumb {
+  background-color: teal; 
+  border-radius: 10px; 
+}
+
+/* Estilo para o hover do thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(1, 178, 178); 
+}
