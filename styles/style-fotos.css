@@ -60,9 +60,10 @@ main{
   display: flex;
   position: relative;
   flex-wrap: wrap;
-  margin: 0 auto 50px;
+  margin: 20px auto;
+  padding: 10px;
   width: 80%;
-  height: 123vh;
+  height: 157vh;
   border-radius: 20px;
 }
 
@@ -70,8 +71,9 @@ main{
   background-color: transparent;
   display: grid;
   grid-template-columns: 44% 44% 44%;
+  grid-auto-rows: min-content;
   gap: 9px;
-  margin: 10px auto;
+  margin: 0 auto;
   justify-content: center;
   width: 73%;
 }
@@ -87,7 +89,7 @@ main{
 footer{
   color: #ffff;
   position: absolute;
-  bottom: -25px;
+  bottom: 2px;
   left: 15px;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
@@ -103,7 +105,6 @@ footer{
   }
   .images{
     display: grid;
-    grid-template-columns: 50% 50%;
     grid-template-columns: 50% 50%;
     width: 97%;
   }
