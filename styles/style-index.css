@@ -172,7 +172,7 @@ footer img:hover{
 
   main{
     background-color: transparent;
-    margin: 100px auto;
+    margin: 50px auto;
     width: 100%;
   }
   .container{
@@ -182,7 +182,7 @@ footer img:hover{
   }
   .cont-inicio{
     width: 95%;
-    height: 44vh;
+    height: 37vh;
     padding: 10px;
     top: 50px;
     left: 10px;
