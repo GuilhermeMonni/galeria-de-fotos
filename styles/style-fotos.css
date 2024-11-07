@@ -77,19 +77,53 @@ main{
 }
 .images img{
   border-radius: 10px;
-  max-height: 550px;
+  max-height: 450px;
 }
 .images img:hover{
   scale: 1.003;
   transition-duration: 1s;
 }
+#img-oscar{
+  margin-top: -229px;
+}
+#img-carpas{
+  margin-top: -229px;
+}
+#img-mouro{
+  margin-top: -229px;
+}
+
 footer{
   color: #ffff;
   position: absolute;
-  bottom: 3px;
-  left: 10px;
+  bottom: -25px;
+  left: 15px;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
   font-weight: 500;
   font-style: normal;
 }
+
+/* responsividade */
+@media screen and (300px <= width <= 1000px){
+  main{
+    background-color: transparent;
+    width: 100%;
+  }
+  .images{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 97%;
+  }
+  #img-betta{
+    margin-top: 0;
+  }
+  #img-oscar{
+    margin-top: 0;
+  }
+  #img-carpas{
+    margin-top: 20px;
+  }
+}
+
+

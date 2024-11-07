@@ -181,10 +181,11 @@ footer img:hover{
     height: 60vh;
   }
   .cont-inicio{
-    position: initial;
-    width: 90%;
+    width: 95%;
+    height: 44vh;
     padding: 10px;
-    margin: -350px auto;
+    top: 50px;
+    left: 10px;
   }
   .cont-inicio h3{
     font-size: 1.4em;
